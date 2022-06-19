@@ -15,12 +15,13 @@
       * {
         box-sizing: border-box;
       }
-      table, tbody
-      td,
-      th {
-        width: 500px;
-        border: 1px solid black;
+      table {
         margin: 16px;
+        width: 500px;
+      }
+      table,tbody td,
+      th {
+        border: 1px solid black;
         border-collapse: collapse;
         text-align: right;
         padding: 4px;
@@ -29,19 +30,19 @@
   </head>
   <body>
     <table>
-        <tbody>
       <caption>
         Shopping list
       </caption>
-      
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Amount</th>
-            <th>Price</th>
-            <th>Subtotal</th>
-          </tr>
-        </thead>
+
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>Milk</td>
           <td>3</td>
